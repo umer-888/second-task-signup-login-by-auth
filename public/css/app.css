@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Mukta');/*bootstrap url */
+
 
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
@@ -10929,15 +10929,3 @@ a.text-dark:focus {
   }
 }
 
-
-body{
-  font-family: 'Mukta', sans-serif;
-  height:100vh;
-  min-height:550px;
-  background-image: url(http://www.planwallpaper.com/static/images/Free-Wallpaper-Nature-Scenes.jpg);
-  background-repeat: no-repeat;
-  background-size:cover;
-  background-position:center;
-  position:relative;
-    overflow-y: hidden;
-}
