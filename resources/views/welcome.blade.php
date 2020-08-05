@@ -197,7 +197,7 @@ a{
             @csrf
             <div class="login-show">
                 <h2>LOGIN</h2>
-                <input id="email" type="email" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Email">
+                <input id="email" type="text" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Email">
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
@@ -223,7 +223,7 @@ a{
             <div class="register-show">
                 <h2>REGISTER</h2>
 
-                <input id="email" type="email"  name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="Email">
+                <input id="email" type="text"  name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="Email">
 
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
